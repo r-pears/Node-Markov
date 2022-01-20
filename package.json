@@ -1,0 +1,19 @@
+{
+  "name": "node-markov-exercise",
+  "version": "1.0.0",
+  "description": "Node Markov Exercise for Springboard, Jan 2022",
+  "main": "makeText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-pears/Node-Markov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-pears/Node-Markov/issues"
+  },
+  "homepage": "https://github.com/r-pears/Node-Markov#readme"
+}
