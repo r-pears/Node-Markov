@@ -17,16 +17,16 @@ class MarkovMachine {
       let nextWord = this.words[i + 1] || null;
 
       if (chains.has(word)) {
-        return chains.get(word).push(nextWord);
+        chains.get(word).push(nextWord);
       } else {
-        return chains.set(word, [nextWord]);
+        chains.set(word, [nextWord]);
       }
     }
 
     this.chains = chains;
   }
 
-  random(array) {
+  static random(array) {
     return array[Math.floor(Math.random() * array.length)];
   }
 
