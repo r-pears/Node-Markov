@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/r-pears/Node-Markov#readme",
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "jest": "^27.4.7"
   }
 }
